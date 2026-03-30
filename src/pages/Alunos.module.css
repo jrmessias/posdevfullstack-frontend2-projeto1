@@ -1,0 +1,48 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.vazio {
+  width: 100%;
+  color: var(--footer-text);
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-color);
+}
+
+.tabela th {
+  padding: 8px 40px;
+  text-align: left;
+  background-color: var(--table-header-bg);
+}
+
+.tabela td {
+  padding: 8px 40px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tabela tr:hover td {
+  background-color: var(--table-row-hover);
+}
+
+.inputBusca {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+}

@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 12px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid var(--border-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social_list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  justify-content: center;
+  padding: 1px;
+}
+
+.social_list a {
+  font-size: 24px;
+  color: var(--footer-text);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social_list a:hover {
+  transform: scale(1.2);
+  color: #0A66C2;
+}

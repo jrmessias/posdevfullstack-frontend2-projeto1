@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content {
+  background: var(--bg-color);
+  color: var(--text-color);
+  flex: 1;
+  padding: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}

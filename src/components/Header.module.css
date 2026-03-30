@@ -1,0 +1,43 @@
+.header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  color: var(--header-text);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.themeBtn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--header-text);
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.themeBtn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
