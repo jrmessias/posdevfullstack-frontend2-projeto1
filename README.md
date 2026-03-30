@@ -75,12 +75,6 @@ npm start
 npm run backend
 ```
 
-### Testes
-
-```bash
-npm test
-```
-
 ### Scripts disponíveis
 
 | Script | Comando | Descrição |
