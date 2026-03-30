@@ -1,0 +1,11 @@
+{
+  "name": "sistema-escolar-api",
+  "version": "1.0.0",
+  "description": "Backend API para o sistema escolar usando json-server",
+  "scripts": {
+    "start": "json-server --watch db.json --port ${PORT:-5001} --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.9"
+  }
+}

@@ -10,7 +10,7 @@ function Alunos(){
     useEffect( ()=> {
 
         setTimeout( () => {
-            fetch("http://localhost:5001/alunos")
+            fetch(`${process.env.REACT_APP_API_URL}/alunos`)
                 .then((resp) => resp.json())
                 .then((data) => {
                     setAlunos(data);

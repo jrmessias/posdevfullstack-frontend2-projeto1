@@ -10,8 +10,7 @@ function Biblioteca(){
     useEffect( ()=> {
 
         setTimeout( () => {
-            //simulando dados vindo de uma API
-            fetch("http://localhost:5001/livros")
+            fetch(`${process.env.REACT_APP_API_URL}/livros`)
             .then((resp) => resp.json())
             .then((data) => {
                 setLivros(data);
