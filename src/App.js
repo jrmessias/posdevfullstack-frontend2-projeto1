@@ -12,7 +12,7 @@ import CadastrarLivros from './pages/CadastrarLivros';
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
 
         <Header/>
 
