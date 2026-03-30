@@ -2,7 +2,7 @@
   "name": "sistema-escolar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jrmessias.github.io/posdevfullstack-frontend2-projeto1",
+  "homepage": "https://posdevfullstack-frontend2-projeto1.jrmessias.com.br",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
