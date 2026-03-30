@@ -6,6 +6,7 @@
     "start": "json-server --watch db.json --port ${PORT:-5001} --host 0.0.0.0"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.9"
+    "json-server": "^1.0.0-beta.9",
+    "yaml": "^2.8.3"
   }
 }
