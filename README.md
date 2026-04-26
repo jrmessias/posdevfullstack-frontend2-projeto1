@@ -127,7 +127,7 @@ Esse comando executa o build e publica na branch `gh-pages`.
 
 ### 4. Acessar a aplicação
 
-- **Frontend:** https://jrmessias.github.io/posdevfullstack-frontend2-projeto1
+- **Frontend:** https://posdevfullstack-frontend2-projeto1.jrmessias.com.br
 - **Backend:** URL do Render (configurada no passo 2)
 
 ### Observações sobre o Render (Free Tier)
